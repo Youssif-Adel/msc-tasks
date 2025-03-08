@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --project-primary: #af7eeb;
+  --project-secondary: #e3e9ff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, serif;
+}
+
+.hidden {
+  display: none;
+}
+
+#container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--project-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#filters-container {
+  background-color: var(--project-primary);
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1.5rem;
+}
+
+.filter-button {
+  font-size: 1.2rem;
+  background-color: transparent;
+  width: 10rem;
+  border: none;
+  cursor: pointer;
+  padding: 0.7rem 0;
+  border-radius: 2rem;
+  color: white;
+  font-weight: 500;
+  transition: all 0.4s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+}
+
+.filter-button.active {
+  background-color: white;
+  color: var(--project-primary);
+}
+
+#task-container {
+  background-color: white;
+  width: 45rem;
+  height: 32rem;
+  position: relative;
+  border-radius: 2rem;
+}
+
+ul {
+  padding: 3rem;
+}
+
+#task-button {
+  padding: 0.8rem 1.5rem;
+  background-color: var(--project-primary);
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11rem;
+  transition: all 0.4s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateY(50%) translateX(-50%);
+}
+
+#task-button.active {
+  width: 30rem;
+}
+
+#new-task-paragraph {
+  user-select: none;
+}
+
+#task-input {
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: var(--project-primary);
+  color: white;
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  flex: 1;
+  font-size: 1.2rem;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.buttons-container {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-button {
+  background-color: transparent;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s linear;
+  padding: 0.3rem;
+}
+
+.task-button:hover {
+  scale: 1.1;
+}

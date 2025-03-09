@@ -25,6 +25,7 @@
   align-items: center;
   flex-direction: column;
   gap: 2rem;
+  padding-bottom: 5rem;
 }
 
 #filters-container {
@@ -58,7 +59,7 @@
 #task-container {
   background-color: white;
   width: 45rem;
-  height: 32rem;
+  min-height: 32rem;
   position: relative;
   border-radius: 2rem;
 }

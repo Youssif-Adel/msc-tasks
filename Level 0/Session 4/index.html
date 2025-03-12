@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="nav-wrapper">
+        <div id="nav-one">
+            <a style="height: 80%" href="./index.html">
+                <img src="pngwing.com.png" style="height: 100%" alt="background">
+            </a>
+        </div>
+        <ul id="nav-two">
+            <li> <a class="nav-anchor" href="#home-wrapper"><i class="fa-solid fa-house"></i> Home</a> </li>
+            <li> <a class="nav-anchor" href="#about-wrapper"><i class="fa-solid fa-circle-info"></i> About</a> </li>
+            <li ><a class="nav-anchor" href="#services-wrapper"><i class="fa-solid fa-gear"></i> Services</a> </li>
+            <li> <a class="nav-anchor" href="#portfolio-wrapper"><i class="fa-solid fa-suitcase"></i> Portfolio</a> </li>
+            <li> <a class="nav-anchor" href="#products-wrapper"><i class="fa-solid fa-cart-shopping"></i> Products</a> </li>
+            <li> <a class="nav-anchor" href="#testimonials-wrapper"><i class="fa-solid fa-comment"></i> Testimonials</a></li>
+            <li> <a class="nav-anchor" href="#contact-wrapper"><i class="fa-solid fa-envelope-open"></i> Contact</a> </li>
+        </ul>
+        <div id="nav-three">
+            <button id="sign-button"><i class="fa-solid fa-user-plus"></i> Sign Up</button>
+        </div>
+    </nav>
+
+    <div id="home-wrapper">
+        <div id="home-background">
+            <h1>Welcome to our elegant page</h1>
+            <h2>This page showcases variety of CSS properties</h2>
+        </div>
+    </div>
+
+    <div id="body-wrapper">
+        <div id="about-wrapper">
+            <h1>About US <i class="fa-solid fa-people-group"></i></h1>
+            <h2>We are a company dedicated to delivering high-quality web solutions with elegance and sophistication.</h2>
+        </div>
+
+        <div id="services-wrapper">
+            <h1 class="headers">Our Services <i class="fa-solid fa-star"></i></h1>
+            <div id="services">
+                <h2><i class="fa-solid fa-code"></i> Web Development</h2>
+                <h2><i class="fa-solid fa-paintbrush"></i> Graphic Design</h2>
+                <h2><i class="fa-solid fa-magnifying-glass"></i> SEO Optimization</h2>
+            </div>
+        </div>
+
+        <div id="portfolio-wrapper">
+            <h1 class="headers">Our Portfolio <i class="fa-solid fa-folder-open"></i></h1>
+            <table id="projects">
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                </tr>
+
+                <tr>
+                    <td>Project A</td>
+                    <td>An innovative web development project.</td>
+                </tr>
+
+                <tr>
+                    <td>Project B</td>
+                    <td>A creative graphic design project</td>
+                </tr>
+
+                <tr>
+                    <td>Project C</td>
+                    <td>An effective SEO optimization project</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="products-wrapper">
+            <div class="product">
+                <img src="Product1.jpg" class="product-image" alt="product">
+                <div class="product-info">
+                    <h3>Product 1</h3>
+                    <div class="product-desc">
+                        <p>Description of product 1.</p>
+                    </div>
+                    <button class="product-button">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Product2.jpg" class="product-image" alt="product">
+                <div class="product-info">
+                    <h3>Product 2</h3>
+                    <div class="product-desc">
+                        <p>Description of product 2.</p>
+                    </div>
+                    <button class="product-button">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Product3.jpg" class="product-image" alt="product">
+                <div class="product-info">
+                    <h3>Product 3</h3>
+                    <div class="product-desc">
+                        <p>Description of product 3.</p>
+                    </div>
+                    <button class="product-button">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="testimonials-wrapper">
+            <h1 class="headers">Customer Testimonials <i class="fa-solid fa-quote-left"></i></h1>
+
+            <div id="testimonials">
+                <div class="testimonial">
+                    <p>"This company provides the best service I've ever experienced!"</p>
+                    <h4>- Happy Customer</h4>
+                </div>
+
+                <div class="testimonial">
+                    <p>"Their products are top-notch and their support is excellent."</p>
+                    <h4>- Satisfied Client</h4>
+                </div>
+            </div>
+        </div>
+
+        <div id="team-wrapper">
+            <h1 class="headers">Our Team <i class="fa-solid fa-people-group"></i></h1>
+
+            <div class="member">
+                <img src="Member1.jpg" class="member-image" alt="member 1">
+                <h3>John Doe</h3>
+                <p>CEO & Founder</p>
+            </div>
+
+            <div class="member">
+                <img src="Member2.jpg" class="member-image" alt="member 2">
+                <h3>Michael Brown</h3>
+                <p>Lead Developer</p>
+            </div>
+
+            <div class="member">
+                <img src="Member3.jpg" class="member-image" alt="member 3">
+                <h3>Jane Smith</h3>
+                <p>Marketing Director</p>
+            </div>
+        </div>
+
+        <div id="contact-wrapper">
+            <h1 class="headers">Contact Us <i class="fa-solid fa-envelope"></i></h1>
+
+            <form id="contact-form">
+                <label for="name-input">Name:</label>
+                <input type="text" name="name" id="name-input" class="input">
+
+                <label for="mail-input">Email:</label>
+                <input type="email" name="email" id="mail-input" class="input">
+
+                <label for="message-input">Message:</label>
+                <textarea name="message" id="message-input" cols="30" rows="10" class="input"></textarea>
+
+                <input type="submit" value="Send" id="submit-button" class="product-button">
+            </form>
+        </div>
+
+    </div>
+
+    <footer id="footer-wrapper">
+        <p>&copy; 2024 Elegant Web Solutions</p>
+    </footer>
+
+</body>
+</html>

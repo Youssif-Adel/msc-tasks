@@ -1,0 +1,9 @@
+.timerContainer {
+  padding: 60px 60px;
+  background-color: var(--project-third);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
